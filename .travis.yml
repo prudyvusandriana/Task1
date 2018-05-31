@@ -1,0 +1,4 @@
+language: go
+script: go get github.com/prudyvusandriana/Task1 && go test
+notifications:
+email: false
