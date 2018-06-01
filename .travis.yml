@@ -1,4 +1,6 @@
 language: go
 script: go get github.com/prudyvusandriana/Task1 && go test
+before_install:
+- go get -v github.com/golang/lint/golint
 notifications:
 email: false
